@@ -30,7 +30,7 @@ namespace Dice_Game_CSharp
                 Console.WriteLine("Enemy AI rolled a " + enemyRandomNum);
                 Console.WriteLine("");
 
-                if (enemyRandomNum>playerRandomNum)
+                if (enemyRandomNum > playerRandomNum)
                 {
                     enemyPoints++;
                 }
